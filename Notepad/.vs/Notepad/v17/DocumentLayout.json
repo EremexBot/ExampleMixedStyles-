@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\ExampleMixedStyles\\Notepad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E572A89-F8EC-43CD-AA0E-391014BB21F1}|Notepad.csproj|c:\\git\\examplemixedstyles\\notepad\\notepad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E572A89-F8EC-43CD-AA0E-391014BB21F1}|Notepad.csproj|solutionrelative:notepad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E572A89-F8EC-43CD-AA0E-391014BB21F1}|Notepad.csproj|c:\\git\\examplemixedstyles\\notepad\\views\\tools\\findview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{7E572A89-F8EC-43CD-AA0E-391014BB21F1}|Notepad.csproj|solutionrelative:views\\tools\\findview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E572A89-F8EC-43CD-AA0E-391014BB21F1}|Notepad.csproj|c:\\git\\examplemixedstyles\\notepad\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{7E572A89-F8EC-43CD-AA0E-391014BB21F1}|Notepad.csproj|solutionrelative:app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Notepad",
+              "DocumentMoniker": "C:\\git\\ExampleMixedStyles\\Notepad\\Notepad.csproj",
+              "RelativeDocumentMoniker": "Notepad.csproj",
+              "ToolTip": "C:\\git\\ExampleMixedStyles\\Notepad\\Notepad.csproj",
+              "RelativeToolTip": "Notepad.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-10T08:45:26.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\git\\ExampleMixedStyles\\Notepad\\App.axaml",
+              "RelativeDocumentMoniker": "App.axaml",
+              "ToolTip": "C:\\git\\ExampleMixedStyles\\Notepad\\App.axaml",
+              "RelativeToolTip": "App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-10T08:37:19.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FindView.axaml",
+              "DocumentMoniker": "C:\\git\\ExampleMixedStyles\\Notepad\\Views\\Tools\\FindView.axaml",
+              "RelativeDocumentMoniker": "Views\\Tools\\FindView.axaml",
+              "ToolTip": "C:\\git\\ExampleMixedStyles\\Notepad\\Views\\Tools\\FindView.axaml",
+              "RelativeToolTip": "Views\\Tools\\FindView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-10T08:36:57.251Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

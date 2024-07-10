@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <IsPackable>False</IsPackable>
+    <Nullable>enable</Nullable>
+    <AvaloniaNameGeneratorBehavior>OnlyProperties</AvaloniaNameGeneratorBehavior>
+  </PropertyGroup>
+
+  <Import Project="..\build\Base.props" />
+  <Import Project="..\build\ReferenceAssemblies.props" />
+  <Import Project="..\build\Avalonia.props" />
+  <Import Project="..\build\Avalonia.Themes.Fluent.props" />
+  <Import Project="..\build\Avalonia.Desktop.props" />
+  <Import Project="..\build\Avalonia.Diagnostics.props" />
+  <Import Project="..\build\CommunityToolkit.Mvvm.props" />
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Layouts\ManageWindowLayoutsWindow.axaml" />
+    <UpToDateCheckInput Remove="Views\Layouts\ResetWindowLayoutWindow.axaml" />
+    <UpToDateCheckInput Remove="Views\Layouts\SaveWindowLayoutWindow.axaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dock.Avalonia" Version="11.0.10" />
+    <PackageReference Include="Dock.Model.Mvvm" Version="11.0.10" />
+    <PackageReference Include="Eremex.Avalonia.Controls" Version="1.0.35" />
+    <PackageReference Include="Eremex.Avalonia.Themes.DeltaDesign" Version="1.0.35" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="CommunityToolkit.Mvvm" Version="8.2.2" />
+  </ItemGroup>
+
+</Project>
